@@ -1,0 +1,31 @@
+from getpass import getpass as input
+print("Rock,Papper,Scissor")
+
+R = 'rock'
+P = 'paper'
+S = 'scissor'
+
+PlayerOne = input("Are you ready player one")
+print("Yes")
+PlayerTwo = input("Are you ready Player 2")
+print("Yes")
+if PlayerOne == "R" and PlayerTwo == "S":
+  print()
+  print("Player One wins!")
+elif  PlayerOne == "S" and PlayerTwo == "R":
+  print()
+  print("Player Two wins!")
+elif PlayerOne =="R" and PlayerTwo == "S":
+  print()
+  print("Player One wins!")
+elif PlayerOne == "S" and PlayerTwo == "P":
+  print()
+  print("Player Two wins!")
+elif PlayerOne == "P" and PlayerTwo == "S":
+  print()
+  print("Player One wins!")
+elif PlayerOne == "P" and PlayerTwo == "R":
+  print()
+  print("Player Two wins!")
+else:
+    ("Invalid input")
